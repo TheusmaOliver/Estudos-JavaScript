@@ -11,7 +11,7 @@ document.querySelector('#ano').innerHTML = opcoes
 
 let lista = ''
 
-let clientes = ['Thiago','Rafael','Fulano','Ciclano']
+let clientes = ['Matheus', 'Rafael', 'Fulano', 'Ciclano']
 
 for (let contador = 0; contador <= clientes.length - 1; contador++) {
   lista += `<li>${clientes[contador]} - ${contador}</li>`

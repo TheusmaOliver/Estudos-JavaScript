@@ -1,6 +1,6 @@
 let clientes = [
   {
-    nome: 'Thiago',
+    nome: 'Matheus',
     idade: 35,
     linguagens: ['javascript', 'python', 'php']
   },
@@ -18,11 +18,11 @@ let clientes = [
 
 let htmlClientes = ''
 
-for(let cliente of clientes){
- 
+for (let cliente of clientes) {
+
   let listaLinguagens = ''
 
-  for(let linguagem of cliente.linguagens) {
+  for (let linguagem of cliente.linguagens) {
     listaLinguagens += `<li>${linguagem}</li>`
   }
 

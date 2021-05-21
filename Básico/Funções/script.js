@@ -5,7 +5,7 @@ function escreverNoConsole(mensagem, nome) {
 }
 
 
-escreverNoConsole('seja muito bem-vindo(a)!', 'Thiago')
+escreverNoConsole('seja muito bem-vindo(a)!', 'Matheus')
 
 
 // retornar 
